@@ -33,10 +33,15 @@ code {
 }
 .main-container {
   display: flex; 
-  height: 100vh; 
+  height: 100%; 
   width: 100%;  
   align-items: center;
   justify-content: center; 
+}
+@media (min-width: 550px) {
+  .main-container {
+  height: 100vh; 
+  }
 }
 .flex-container {
   display: flex; 
